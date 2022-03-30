@@ -4,8 +4,6 @@
   padding-top: 10px;
   border: solid 1px #dcdcdc;
   box-shadow: 5px 5px 15px 6px rgba(220,220,220,0.78);
-
-  transition: all 1s ease;
 }
 .btnClose{
   display: flex;
@@ -45,4 +43,16 @@
 .info-img .icons p{
   margin: 5px;
   font-size: 1.2rem;
+}
+@media screen and (min-width: 720px){
+  .content{
+    padding: 10px;
+    padding-top: 5px;
+  }
+  .info-img H2{
+    font-size: 1.8rem;
+  }
+  .info-img P{
+    font-size: 1.5rem;
+  }
 }

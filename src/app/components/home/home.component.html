@@ -6,7 +6,7 @@
     <div class="col-3 p-0">
       <app-categories-dropdown></app-categories-dropdown>
     </div>
-    <div class="col-12">
+    <div *ngIf="selectedImage.id !== 0" class="col-12 app-selected-image" #cardImage>
       <app-selected-image></app-selected-image>
     </div>
     <div class="col-12">

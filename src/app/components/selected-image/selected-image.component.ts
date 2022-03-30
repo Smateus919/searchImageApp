@@ -10,7 +10,7 @@ import { ImagesService } from "../../core/services/images/images.service";
 })
 export class SelectedImageComponent implements OnInit {
 
-  selectedImage: Image = {id: 0}
+  selectedImage: Image
 
   constructor(
     private imagesService: ImagesService
@@ -24,7 +24,7 @@ export class SelectedImageComponent implements OnInit {
 
   }
   closeCard(){
-    this.selectedImage.id = 0
+    this.imagesService.selectImage({id: 0})
   }
 
 }
