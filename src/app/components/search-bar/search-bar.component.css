@@ -1,0 +1,12 @@
+.container{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.content .form-control{
+  width: 100%;
+}
+.container img{
+  margin-top: 5px;
+  width: 30px;
+  color: #006310;
+}

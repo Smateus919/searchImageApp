@@ -1,0 +1,5 @@
+<div class="container">
+  <div class="gallery-grid">
+    <img *ngFor="let image of images" [src]="image.previewURL" alt="" width="100%" (click)="viewImage(image)">
+  </div>
+</div>
